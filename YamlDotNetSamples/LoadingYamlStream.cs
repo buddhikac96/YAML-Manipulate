@@ -65,7 +65,6 @@ namespace YamlDotNetSamples
                 Follow the Yellow Brick
                 Road to the Emerald City.
                 Pay no attention to the
-                man behind the curtain.
-                ...";
+                man behind the curtain....";
     }
 }
