@@ -17,8 +17,11 @@ namespace YAML_Manipulate
             /*var convertYamlToJson = new ConvertYamlToJson();
             convertYamlToJson.Run();*/
 
-            var deserializeToObject = new DeserializeToObject();
-            deserializeToObject.Run();
+            /*var deserializeToObject = new DeserializeToObject();
+            deserializeToObject.Run();*/
+
+            var deserializingMultipleDocuments = new DeserializingMultipleDocuments();
+            deserializingMultipleDocuments.Run();
 
             Console.ReadKey();
         }
