@@ -19,7 +19,7 @@ namespace YamlDotNetSamples
             var parser = new Parser(input);
 
             // comsuming the steam start event manully // check for this
-            parser.Expect<StreamStart>();
+            parser.Consume<StreamStart>();
 
             while (parser.Accept<DocumentStart>())
             {

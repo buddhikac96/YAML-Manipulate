@@ -98,6 +98,10 @@
     <Analyzer Include="..\packages\xunit.analyzers.0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\YamlDotNetPractice\YamlDotNetPractice.csproj">
+      <Project>{e84b1d60-faf2-490d-bcfc-60a628b1c921}</Project>
+      <Name>YamlDotNetPractice</Name>
+    </ProjectReference>
     <ProjectReference Include="..\YamlDotNetSamples\YamlDotNetSamples.csproj">
       <Project>{27aa09ad-21d0-4526-9151-728d7d2cde13}</Project>
       <Name>YamlDotNetSamples</Name>
