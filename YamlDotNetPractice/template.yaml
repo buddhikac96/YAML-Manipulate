@@ -1,3 +1,13 @@
-﻿name:Buddhika
-email:buddhika@email.com
-mobile:1234567890
+﻿service: 
+ id: myapp
+ name: "MyApp Service (powered by WinSW)"
+ description: "This service is a service created from a sample configuration"
+ executable: "%BASE%\\myExecutable.exe"
+ priority: Normal
+ stoptimeout: "15 sec"
+ stopparentprocessfirst: false
+ startmode: Automatic
+ waithint: "15 sec"
+ sleeptime: "1 sec"
+ log: 
+  _mode: append

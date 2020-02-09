@@ -1,3 +1,10 @@
-﻿name:buddhika
-email:buddhikagmail.com
-mobile:234023948023948
+﻿email: buddhikagmail.com
+mobile: 234023948023948
+name: buddhika
+address:
+ state: moratuwa
+ district:  col
+ country:   srilanka
+subjects:
+ - topic:   maths
+ - topic:   science

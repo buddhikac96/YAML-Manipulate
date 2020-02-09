@@ -25,27 +25,38 @@ namespace YamlDotNetSamples
 
             //Console.WriteLine(student.name);
 
-            /*foreach (var subject in student.subjects)
+            foreach (var subject in student.subjects)
             {
-                Console.WriteLine(subject);
-            }*/
+                Console.WriteLine(subject.topic);
+            }
 
             Console.WriteLine(student.name);
+
+
+
         }
     }
 
     public class Student
     {
         public string name { get; set; }
-        public string email{ get; set; }
+        public string email { get; set; }
         public string mobile { get; set; }
-        //public List<string> subjects { get; set; }
+        public Address address { get; set; }
+        public List<Subject> subjects { get; set; }
+    }
+
+
+    public class Address
+    {
+        public string state { get; set; }
+        public string district { get; set; }
+        public string country { get; set; }
     }
 
     public class Subject
     {
         public string topic { get; set; }
     }
-
     
 }
